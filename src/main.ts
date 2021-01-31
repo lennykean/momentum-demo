@@ -1,14 +1,13 @@
-import { HandlebarsViewEngine } from "https://deno.land/x/momentum@v0.6.3/mvc-handlebars/handlebars-view-engine.ts";
-import { MvcHandlebarsModule } from "https://deno.land/x/momentum@v0.6.3/mvc-handlebars/mvc-handlebars.module.ts";
-import { StaticFileModule } from "https://deno.land/x/momentum@v0.6.3/static-files/static-file.module.ts";
 import {
   Controller,
   Get,
   Injectable,
+  MvcHandlebarsModule,
   MvcModule,
   MvModule,
   Param,
   platformOak,
+  StaticFileModule,
   View,
 } from "./deps.ts";
 
